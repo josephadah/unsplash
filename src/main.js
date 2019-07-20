@@ -5,6 +5,7 @@ import store from './store'
 import Buefy from 'buefy'
 import 'buefy/dist/buefy.min.css'
 import 'bulma-helpers/css/bulma-helpers.min.css'
+import '@fortawesome/fontawesome-free/css/all.css'
 
 Vue.config.productionTip = false
 Vue.use(Buefy)
