@@ -6,30 +6,13 @@
         <div class="column is-4">
           <div class="columns is-multiline is-centered is-variable is-0-mobile">
             <div class="column is-12">
-              <div class="loader-wrapper border-radius-10 has-background-light" style="height:250px;">
+              <div class="loader-wrapper shadow border-radius-10 has-background-light" style="height:250px;">
                 <div class="user-name animated-background has-margin-left-15"></div>
                 <div class="user-location animated-background has-margin-left-15"></div>
               </div>
             </div>
             <div class="column is-12">
-              <div class="loader-wrapper border-radius-10 has-background-light" style="height:350px;">
-                <div class="user-name animated-background has-margin-left-15"></div>
-                <div class="user-location animated-background has-margin-left-15"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="column is-4">
-          <div class="columns is-multiline is-centered is-variable is-0-mobile">
-            <div class="column is-12">
-              <div class="loader-wrapper border-radius-10 has-background-light" style="height:350px;">
-                <div class="user-name animated-background has-margin-left-15"></div>
-                <div class="user-location animated-background has-margin-left-15"></div>
-              </div>
-            </div>
-            <div class="column is-12">
-              <div class="loader-wrapper border-radius-10 has-background-light" style="height:300px;">
+              <div class="loader-wrapper shadow border-radius-10 has-background-light" style="height:350px;">
                 <div class="user-name animated-background has-margin-left-15"></div>
                 <div class="user-location animated-background has-margin-left-15"></div>
               </div>
@@ -40,13 +23,30 @@
         <div class="column is-4">
           <div class="columns is-multiline is-centered is-variable is-0-mobile">
             <div class="column is-12">
-              <div class="loader-wrapper border-radius-10 has-background-light" style="height:300px;">
+              <div class="loader-wrapper shadow border-radius-10 has-background-light" style="height:350px;">
                 <div class="user-name animated-background has-margin-left-15"></div>
                 <div class="user-location animated-background has-margin-left-15"></div>
               </div>
             </div>
             <div class="column is-12">
-              <div class="loader-wrapper border-radius-10 has-background-light" style="height:350px;">
+              <div class="loader-wrapper shadow border-radius-10 has-background-light" style="height:300px;">
+                <div class="user-name animated-background has-margin-left-15"></div>
+                <div class="user-location animated-background has-margin-left-15"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-4">
+          <div class="columns is-multiline is-centered is-variable is-0-mobile">
+            <div class="column is-12">
+              <div class="loader-wrapper shadow border-radius-10 has-background-light" style="height:300px;">
+                <div class="user-name animated-background has-margin-left-15"></div>
+                <div class="user-location animated-background has-margin-left-15"></div>
+              </div>
+            </div>
+            <div class="column is-12">
+              <div class="loader-wrapper shadow border-radius-10 has-background-light" style="height:350px;">
                 <div class="user-name animated-background has-margin-left-15"></div>
                 <div class="user-location animated-background has-margin-left-15"></div>
               </div>

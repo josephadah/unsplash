@@ -3,5 +3,11 @@
     cursor: pointer;
 }
 .border-radius-10 {
-    border-radius: 10px;
+    border-radius: $border-radius;
+}
+a:hover {
+    text-shadow: 3px 3px 4px rgba(2,43,105,0.15);
+}
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }

@@ -1,9 +1,9 @@
 <template>
   <div>
-    <section class="hero has-background-grey-light has-margin-top-50">
+    <section class="hero has-background-info has-margin-top-20">
       <div class="hero-body">
         <div class="columns is-centered">
-          <div class="column has-padding-top-30 has-padding-bottom-30 is-three-quarters">
+          <div class="column has-padding-top-20 has-padding-bottom-30 is-three-quarters">
             <SearchForm :searching="searching" @search-photos="searchPhoto" />
           </div>
         </div>

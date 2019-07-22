@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="photo" class="photo-container cursor-pointer" @click="isCardModalActive = true">
+    <div v-if="photo" class="photo-container shadow border-radius-10 cursor-pointer" @click="isCardModalActive = true">
       <img class="image border-radius-10" :src="photo.urls.regular" alt="Placeholder image">
       <div class="author-details">
         <p class="is-size-6">{{photo.user.name}}</p>
@@ -10,7 +10,7 @@
     </div>
 
     <b-modal :active.sync="isCardModalActive" :width="640" scroll="keep">
-        <div class="card border-radius-10">
+        <div class="card shadow border-radius-10">
             <div class="card-image">
               <figure class="image">
                 <img class="modal-image" :src="photo.urls.regular" alt="Image">
