@@ -54,7 +54,6 @@ export default {
   watch: {
     photos(newPhotos, oldPhotos) {
       const photos = newPhotos;
-      console.log(photos);
       this.column1.length = 0; this.column2.length = 0; this.column3.length = 0;
       for (let i = 1; i <= this.photos.length; i++) {
         if (i % 2 === 0 && i % 3 !== 0) {
