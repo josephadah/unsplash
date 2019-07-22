@@ -46,6 +46,9 @@ export default {
 <style lang="scss" scoped>
   .photo-container {
     position: relative;
+    &:hover {
+      transform: scale(1.05);
+    }
 
     .author-details {
       position: absolute;

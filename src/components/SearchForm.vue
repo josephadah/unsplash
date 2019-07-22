@@ -12,10 +12,10 @@
     </form>
     <div class="has-margin-top-10">
       <div v-if="searching" class="has-margin-left-50">
-        <p class="is-size-4 has-text-grey-dark">Searching <span class="has-text-grey-light">{{lastSearchQuery}}</span></p>
+        <p class="is-size-4">Searching <span class="has-text-grey">{{lastSearchQuery}}</span></p>
       </div>
       <div v-if="!searching && lastSearchQuery" class="has-margin-left-50">
-        <p class="is-size-4 has-text-grey-dark">Search Results for <span class="has-text-grey-light">"{{lastSearchQuery}}"</span></p>
+        <p class="is-size-4">Search Results for <span class="has-text-grey">"{{lastSearchQuery}}"</span></p>
       </div>
     </div>
   </div>
