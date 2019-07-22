@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="photos.length > 0" class="columns is-multiline is-centered is-variable is-0-mobile">
+    <div v-if="column1.length > 0" class="columns is-multiline is-centered is-variable is-0-mobile">
       <div v-if="column1.length > 0" class="column is-4">
         <div class="columns is-multiline is-centered is-variable is-0-mobile">
           <div v-for="photo in column1" :key="photo.id" class="column is-12">
@@ -26,7 +26,7 @@
       </div>
     </div>
 
-    <PhotosLoader v-if="!photos || photos.length === 0" />
+    <PhotosLoader v-if="!photos || column1.length === 0" />
 
   </div>
 </template>
