@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="hero is-light has-margin-top-50">
+    <section class="hero has-background-grey-light has-margin-top-50">
       <div class="hero-body">
         <div class="columns is-centered">
           <div class="column has-padding-top-30 has-padding-bottom-30 is-three-quarters">
@@ -10,7 +10,7 @@
       </div>
     </section>
     <section>
-      <div class="main-container columns is-centered">
+      <div class="main-container columns is-centered is-gapless">
         <div class="column is-two-thirds">
           <PhotoList :photos="photos" />
         </div>
@@ -36,7 +36,7 @@ export default {
       searching: false
     }
   },
-  created() {
+  mounted () {
     this.getPhotos();
   },
   methods: {

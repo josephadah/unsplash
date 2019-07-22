@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="photo-container cursor-pointer" @click="isCardModalActive = true">
-      <img class="image" :src="photo.urls.regular" alt="Placeholder image">
+    <div v-if="photo" class="photo-container cursor-pointer" @click="isCardModalActive = true">
+      <img class="image border-radius-10" :src="photo.urls.regular" alt="Placeholder image">
       <div class="author-details">
         <p class="is-size-6">{{photo.user.name}}</p>
         <p class="is-size-7">{{photo.user.location}}</p>
@@ -10,7 +10,7 @@
     </div>
 
     <b-modal :active.sync="isCardModalActive" :width="640" scroll="keep">
-        <div class="card">
+        <div class="card border-radius-10">
             <div class="card-image">
               <figure class="image">
                 <img class="modal-image" :src="photo.urls.regular" alt="Image">
@@ -32,8 +32,7 @@
 export default {
   name: 'PhotoItem',
   props: {
-    photo: Object,
-    index: Number
+    photo: Object
   },
   data() {
     return {
@@ -48,10 +47,6 @@ export default {
   .photo-container {
     position: relative;
 
-    .image {
-      border-radius: 10px;
-      overflow: hidden;
-    }
     .author-details {
       position: absolute;
       bottom: 15px;
@@ -69,10 +64,6 @@ export default {
       color: #f1f1f1;
       z-index: 2;
     }
-  }
-
-  .card {
-    border-radius: 10px;
   }
   .modal-image {
     border-radius: 10px 10px 0 0;
