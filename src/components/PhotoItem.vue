@@ -42,12 +42,15 @@ export default {
 }
 </script>
 
-
 <style lang="scss" scoped>
   .photo-container {
     position: relative;
     &:hover {
       transform: scale(1.05);
+    }
+
+    .image {
+      min-height: 100px;
     }
 
     .author-details {
