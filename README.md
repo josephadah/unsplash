@@ -4,6 +4,7 @@
 ```
 npm install
 ```
+> To run in development, create a .env.development file in src directory and add your unsplash api client id with key: VUE_APP_UNSPLASH_CLIENT_ID
 
 ### Compiles and hot-reloads for development
 ```
@@ -14,21 +15,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
